@@ -12,6 +12,13 @@
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
+.idea/**/misc.xml
+.idea/**/discord.xml
+.idea/**/encodings.xml
+.idea/**/indexLayout.xml
+.idea/**/Project_Default.xml
+.idea/**/vcs.xml
+.idea**/projectSettingsUpdater.xml
 
 # AWS User-specific
 .idea/**/aws.xml
