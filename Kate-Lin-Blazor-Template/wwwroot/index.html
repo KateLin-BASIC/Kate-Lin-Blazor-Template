@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <!-- Title -->
+    <title>App Title Here</title>
+
+    <!-- Primary Meta Tags -->
+    <meta charset="utf-8" />
+    <meta name="title" content="App Title Here">
+    <meta name="description" content="App Description Here">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="App Url Here">
+    <meta property="og:title" content="App Title Here">
+    <meta property="og:description" content="App Description Here">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="App Url Here">
+    <meta property="twitter:title" content="App Title Here">
+    <meta property="twitter:description" content="App Description Here">
+
+    <!-- Base URL -->
+    <base href="/" />
+
+    <!-- Links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/app.css" rel="stylesheet" />
+</head>
+
+<body>
+<!-- Blazor Razor Page -->
+<div id="app">
+    <div id="blazor-load-ui">
+        <div class="spinner-border" role="status"></div>
+    </div>
+</div>
+
+<!-- Blazor Error Div -->
+<div id="blazor-error-ui">
+    처리되지 못한 예외가 발생하였습니다.
+
+    <a href="/" class="reload">새로고침</a>
+    <a class="dismiss">🗙</a>
+</div>
+
+<script src="_framework/blazor.webassembly.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
